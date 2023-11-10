@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            REGISTRATION FORM
+        </title>
+       <style>
+        body{
+            background-image:url('https://c4.wallpaperflare.com/wallpaper/985/61/109/minimalism-simple-gradient-soft-gradient-wallpaper-preview.jpg');
+            border:2px solid red;
+            background-size :cover;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+
+            
+        }
+        .image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image1-container{
+          float:right;
+        }
+        
+        .square {
+            padding: 30px;
+            min-height: 300px;
+            resize: vertical;
+            }
+       </style>
+        <body>
+            <p style="font-size: xx-large; font-style: oblique; text-align: center; color: rgb(255, 77, 0);">
+                NIT VINUKONDA</br> 
+                REGISTRATION FORM 
+            </p>
+            <div class="image-container">
+            <image  src="https://cdn.dribbble.com/users/2917825/screenshots/5841603/untitled-1.png"  width="100" height="100" float="center"></image>
+                </div>
+                <div>
+                        <image class="image1-container" src="https://content.jdmagicbox.com/comp/guntur/p3/9999p8642.8642.110328083036.a8p3/catalogue/sri-chaitanya-techno-school-guntur-schools-80r4x6xcpb.jpg?clr=" width="350" height="350">
+                    
+                    <form  class="square" style="font-size:x-large; color:rgb(15, 221, 15)" >
+                        <label for="fname">STUDENT NAME : </label>
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <label for="age">STUDENT AGE    :   </label>
+                        <input type="number" id="age" name="age"></br>
+                        <br>    
+                        <label for="fname">FATHER NAME : </label>
+                        
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname">MOTHER NAME : </label>
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname">FATHER-OCCUPATION: </label>
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname">MOTHER-OCCUPATION : </label>
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname">STUDENT-ADDRESS : </label>
+                        <input type="text" id="fname" name="fname"></br>
+                        <br>
+                        <p style="text-align: center;">
+                        CHOOSE YOUR PREFFERED SUBJECT<br>
+                        <br>
+                        <input type="radio" id="html" name="subject" value="COMPUTER SCIENCE">
+                        <label for="html"></label>COMPUTER SCIENCE</label></br>
+                        <input type="radio" id="html" name="subject" value="INFORMATION TECHNOLOGY">
+                        <label for="html">INFORMATION TECHNOLOGY</label></br>
+                        <input type="radio" id="html" name="subject" value="ELECTRONICS">
+                        <label for="html">ELECTRONICS</label></br>
+                        <input type="radio" id="html" name="subject" value="MECHANICAL">
+                        <label for="html">MECHANICAL</label></br>
+                        <input type="radio" id="html" name="subject" value="ARCHITECTURE">
+                        <label for="html">ARCHITECTURE</label></br>
+                        </p>
+                        <image class="image1-container" src="https://content3.jdmagicbox.com/comp/guntur/p3/9999p8642.8642.110328083036.a8p3/catalogue/sri-chaitanya-techno-school-guntur-schools-cpyke98h9s.jpg" width="350" height="300"></image>
+                        <label for="fname">JEE-MAINS PERCENTILE : </label>
+                        <input type="number" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname">JEE-MAINS RANK : </label>
+                        <input type="number" id="fname" name="fname"></br>
+                        <br>
+                        <label for="email">ENTER YOUR MAIL-ID : </label>
+                        <input type="email" id="email" name="email"></br>
+                        <br>
+                        <label for="fname">PH-NUMBER : </label>
+                        <input type="number" id="fname" name="fname"></br>
+                        <br>
+                        <label for="fname"> ADDITIONAL PH-NUMBER : </label>
+                        <input type="number" id="fname" name="fname"></br>
+                        <br>
+                        <P style="text-align: center;">
+                            WHICH STATE YOU BELONGS TO: <br>
+                            <br>
+
+                            <input type="checkbox" id="html" name="state" value="HOME STATE">
+                            <label for="html" >HOME STATE</label></br>
+                            <br>
+                            <input type="checkbox" id="html" name="state" value="OTHER STATE">
+                            <label for="html">OTHER STATE</label>
+                            <br>
+
+                        </P>
+                        <p style="text-align: center; font-size: xx-large; color:yellow">
+                            <input type="submit" id="html" name="submit" value="SUBMIT">
+                            <input type="reset" id="html" name="reset" value="RESET">
+                        </p>
+                    </form>  
+                </div>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const submitButton = document.querySelector("input[type=submit]");
+            
+                        submitButton.addEventListener("click", function (event) {
+                            event.preventDefault(); 
+            
+                            alert("Form submitted successfully!");
+                        });
+                    });
+                </script> 
+        </body>
+    </head>
+</html>
